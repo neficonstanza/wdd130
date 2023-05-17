@@ -66,12 +66,13 @@ h4 {
     color: #3626A7; 
 }
 
-footer h3 {
+footer {
+    background-color: #1d1b1b (20,30,13, .7); 
     color: white;
 }
 
 footer a {
-    color: white; 
+    color: #fff; 
     text-decoration: none; 
 }
 
@@ -91,12 +92,12 @@ footer a:hover {
     width: 80px; 
 }
 
-footer h3 a:hover {
-    text-decoration: underline; 
+footer p {
+    font-size: 1.2em
 }
 
-footer {
-    background-color: #000807 (20,30,13, .7); 
+footer p a:hover {
+    text-decoration: underline; 
 }
 
 #background {
@@ -107,3 +108,5 @@ footer {
 .msg {
     background-color: white; 
 }
+
+
