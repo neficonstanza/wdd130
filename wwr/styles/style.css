@@ -9,7 +9,7 @@
 }
 
 .home-title {
-    color: #54535c; 
+    color: #000; 
 }
 
 nav a {
@@ -44,8 +44,8 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #977777(247, 53%, 49%); 
-    color: #000807; 
+    background-color: #0443b3(247, 53%, 49%); 
+    color: #fff; 
     text-decoration: none; 
 }
 
