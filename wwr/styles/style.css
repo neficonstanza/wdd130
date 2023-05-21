@@ -10,9 +10,10 @@
 
 .home-title {
     color: #000; 
-    font-size: 2em
-    margin-top: 10px;
     font-family: 'Roboto Slab', Arial;
+    margin-top: 10px;
+    font-size: 2em
+    
 }
 
 nav a {
