@@ -10,12 +10,17 @@
 
 .home-title {
     color: #000; 
+    font-size: 2em
+    margin-top: 10px;
+    font-family: 'Roboto Slab', Arial;
 }
 
 nav a {
     text-align: center; 
     color: white; 
     text-decoration: none; 
+    padding: 35px;
+    font-family: 'Roboto Slab', Arial;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -32,6 +37,14 @@ main section {
 
 body {
     background-color: #72A1E5; 
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+margin: 0;
 }
 
 header {
@@ -47,7 +60,21 @@ nav a:hover {
     background-color: #0443b3; 
     color: #000807; 
     text-decoration: none; 
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
+.card-img {
+    border: 10px solid #134266;
+    
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 
 .book:hover, .join:hover {
     background-color: #8a5f6a; 
@@ -56,6 +83,7 @@ nav a:hover {
 
 h4 {
     color: #000; 
+    font-family: 'Roboto Slab', Arial;
 }
 
 .msg h2 {
@@ -64,11 +92,28 @@ h4 {
 
 .msg p {
     color: #3626A7; 
+    font-size: .8em;
+    padding-bottom: 15px;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 footer {
     background-color: #1d1b1b; 
     color: #fff;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 footer a {
@@ -90,6 +135,7 @@ footer a:hover {
 
 .icon {
     width: 80px; 
+    padding-top: 10px;
 }
 
 footer p {
@@ -107,6 +153,8 @@ footer p a:hover {
 
 .msg {
     background-color: white; 
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 
