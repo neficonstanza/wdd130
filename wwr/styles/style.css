@@ -1,6 +1,8 @@
 /*Styles*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
 
 
 #content {
@@ -10,7 +12,7 @@
 
 .home-title {
     color: #000; 
-    font-family: 'Roboto Slab', Arial;
+    font-family: 'Walter Turncoat', Arial;
     margin-top: 10px;
     font-size: 2em
     
