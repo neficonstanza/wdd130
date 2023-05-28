@@ -42,26 +42,32 @@
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-area: 1;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-area: 2 / 2;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-area: 3 / 3;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-area: 4 / 4;
 } 
 /* Activity 3 styles */ 
 .content3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-area: span;
 
 }
 .red3 {
@@ -74,6 +80,7 @@
   width: 100px; 
   height: 100px; 
   background-color: green;
+  justify-self: start;
 } 
 .yellow3 {
   width: 100px; 
