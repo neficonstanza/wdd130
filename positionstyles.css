@@ -66,31 +66,31 @@
 .content3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
-  grid-column-gap: 80px;
+  grid-column-gap: 10px;
+  grid-area: span;
   
 }
 .red3 {
-  width: 600px; 
+  width: 1600px; 
   height: 100px; 
   background-color: red; 
   grid-column: 1/3;
 
 } 
 .green3 {
-  width: 300px; 
+  width: 500px; 
   height: 150px; 
   background-color: green;
   justify-self: start;
 } 
 .yellow3 {
-  width: 300px; 
+  width: 500px; 
   height: 150px; 
   background-color: gold; 
   justify-self: end;
 } 
 .blue3 {
-  width: 600px;
+  width: 1600px;
   height: 100px; 
   background-color: blue; 
   grid-column: 1/3;
