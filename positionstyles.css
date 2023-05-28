@@ -66,6 +66,7 @@
 .content3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   grid-column-gap: 80px;
   
 }
@@ -99,6 +100,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  
 }
 .red4 {
   width: 100px; 
