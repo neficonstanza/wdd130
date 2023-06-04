@@ -135,6 +135,11 @@ footer p a:hover {
     text-decoration: underline; 
 }
 
+.home-grid h2 {
+    font-family: 'Walter Turncoat', Arial;
+}
+
+
 #logo_link {
     padding-top: 5px;
     justify-self: center;
@@ -169,6 +174,10 @@ footer .social img {
 .card-img:hover {
     opacity: 6;
     transform: scale(1.1);
+}
+
+.home-grid .mountains {
+    margin: auto;
 }
 
 #hero {
