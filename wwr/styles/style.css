@@ -289,18 +289,28 @@ footer .social img {
     margin-top: -250px;
 }
 
-.idaho, .utah, .arizona {
+.utah, .arizona {
     background-color:#134266;
     margin: 30px;
     color: white;
     padding: 30px;
     text-align: left;
+    
+}
+.idaho{
+    background-color:#134266;
+    margin: 30px;
+    color: white;
+    padding: 30px;
+    text-align: left;
+    
 }
 
 #idaho-1, #idaho-2 {
-    float: bottom;
+    float: left;
     padding: 1%;
     border: 10px;
+    
 }
 
 
