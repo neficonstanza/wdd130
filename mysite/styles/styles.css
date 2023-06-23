@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+#content {
+  max-width: 100%;
+  margin: auto;
+}
+
+.home-title {
+  font-family: 'Fedroka-One', Arial, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+  color: #348888;
+}
+
+h1 {
+  font-family: 'Fedroka-One', Arial, sans-serif;
+  font-size: 4em;
+  margin-top: 10px;
+  color: #348888;
+  padding: 15px;
+  background-color: #fcfbfb;
+  margin: 25px;
+}
+
+
+
+header {
+  display: grid;
+  grid-template-columns: 300px repeat(4, 1fr);
+  background-color: #adfff56e;
+  place-items: center;
+  justify-content: space-around;
+  font-family: 'Fedroka-One', Arial, sans-serif;
+}
+
+.logo {
+  max-width: 150px;
+  border: #348888 solid 3px;
+  border-radius: 100cm;
+  margin: 10px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+nav { 
+  grid-column: 2/6;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  align-content: center;
+  font-size: 1.5em;
+  list-style-type: none;
+  font-family: 'Fedroka-One', Arial, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #348888;
+  text-decoration: solid;
+  font-family: 'Fedroka-One', Arial;
+
+}
+
+.button-box {
+  text-align: center;
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #348888;
+}
+
+#us-box {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr;
+  position: relative;
+  border-bottom: #348888 solid 3px;
+  border-top: #348888 solid 3px;
+}
+
+#us-img {
+  height: 100%;
+  width: 100%;
+  grid-row: 1/2;
+  grid-column: 1/3;
+}
+
+#us-msg {
+  text-align: left;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  position: absolute;
+  z-index: 1;
+}
+
+.society-box{
+  margin: 100px;
+  color: #254646;
+  text-align: left;
+}
+
+.society-img {
+  float: left;
+  width: 30%;
+  padding: 25px;
+  border: 10px;
+}
+
+.society-box h2{
+  font-size: 4em;
+
+}
+
+.society-box p{
+  font-size: 1.5em;
+}
+
+#final-msg {
+  margin-top: 100px;
+  padding: 50px;
+  border-top: #348888 solid 3px;
+}
+
+#final-msg h3{
+  text-align: center;
+  font-family: 'Fedroka-One', Arial;
+  padding-bottom: 40px;
+}
+
+.learn-more {
+  background-color: #348888;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #fcfbfb;
+  font-family: 'Fredoka-One', Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.msg p {
+  color: black;
+  font-family: 'Fredoka-One', Helvetica, sans-serif;
+  font-size: .8em;
+  padding-bottom: 15px;
+}
+
+#us-img, #custom-img, #logistic-img, #ship-img {
+  width: 100%;
+}
+
+.society-box p, h2{
+  width: 100%;
+  margin: 10px;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+footer {
+  background-color: #adfff56e;
+  padding: 25px 50px;
+  margin-top: 2px;
+  display: grid;
+  grid-template-columns: 300px repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  place-items: center;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Fedroka-One', Arial, sans-serif;
+  color: #348888;
+  text-decoration: none;
+}
+
+footer a{
+  font-family: 'Fedroka-One', Arial, sans-serif;
+  color: #348888;
+}
+
+.logo2  {
+  max-width: 150px;
+  border: #348888 solid 3px;
+  border-radius: 100cm;
+}
+
+#logo_link {
+  justify-self: center;
+  align-self: center;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<Subpage 2 >>>>>>>>>>>>>>>>>>>>>*/
+
+#custom-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  position: relative;
+  place-items: center;
+  border-bottom: #348888 solid 2px;
+}
+
+.home-title2 {
+  grid-row: 1/2;
+  grid-column: 1/3;
+}
+
+#custom-img {
+  grid-row: 1/2;
+  grid-column: 2/6;
+}
+
+.steps {
+  margin: 25px;
+
+}
+
+#first-step {
+  display: inline-flex;
+  place-items: center;
+}
+
+#first-imgs {
+  justify-content: space-around;
+  display: inline-block;
+  margin-left: 200px;
+}
+
+#first-imgs img{
+  width: 12%;
+  height: 12%;
+  border: 3px solid #CCC;
+  border-radius: 20%;
+}
+
+#second-step {
+  display: inline-flex;
+  place-items: center;
+  width: 100%;
+}
+
+#third-step {
+  display: inline-flex;
+  place-items: center;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 800px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  form li+li {
+    margin-top: 1em;
+  }
+
+  label {
+    /* Uniform size & alignment */
+    display: block;
+    width: 400px;
+    text-align: left;
+  }
+
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+   By default, textareas have a monospace font */
+    font: 1em Helvetica, Arial, sans-serif;
+
+    /* Uniform text field size */
+    width: 800px;
+    box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* Provide space to type some text */
+    height: 5em;
+  }
+
+  .button {
+    /* Align buttons with the text fields */
+    align-content: center;
+    /* same size as the label elements */
+  }
+
+  button {
+    /* This extra margin represent roughly the same space as the space
+   between the labels and their text fields */
+    margin-left: .5em;
+    font-family: 'Fedroka-One', Arial, sans-serif;
+  }
+
+  #feedback {
+    background-color: #22BABB;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+  }
+
+  .moveDown {
+    margin-top: 3em;
+  }
+
+
+/* <<<<<<<<<<<<<<<<<<< Subpage 3 >>>>>>>>>>>>>>>>>>>*/
+
+.logistic-cover{
+  display: grid;
+  place-items: center;  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  position: relative;
+}
+
+#logistic-img {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  width: 100%;
+  height: 100%;
+  border-top: #348888 solid 3px;
+}
+
+.home-tittle-log {
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.text-logistic {
+  display: grid;
+  grid-template-columns: 0.25fr 1.25fr 1.25fr 0.25fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  margin: 50px;
+}
+
+#ship-img {
+  min-width: 70%;
+  max-width: 45%;
+  grid-row: 1/3;
+  grid-column: 3/4;
+  margin-left: 40%;
+}
+
+.text-logistic p {
+  text-align: justify;
+}
+
+#p1 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+#p2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+
+@media screen and (max-width: 900px) {
+  header {
+    display: grid;
+    grid-template-columns: 150px repeat(4, 1fr);
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  #content {
+    font-size: 25px;  
+  }
+
+  nav a {
+    font-size: .5em;
+    align-self: center;
+  }
+
+  .button-box {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  h1, .home-tittle-log {
+    font-size: 2em;
+  }
+
+  .society-box h2 {
+    font-size: 2em;
+  }
+
+  .society-box, .text-logistic p {
+    text-align: center;
+  }
+
+  .society-img {
+    min-width: 300px;
+    float: none;
+  }
+
+  #ship-img {
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-logistic {
+    display: block;
+  }
+
+  form {
+    width: 400px;
+  }
+
+  form label {
+    width: 400px;
+    display: block;
+    width: fit-content;
+  }
+
+  form input, textarea {
+    width: 400px;
+  } 
+
+
+
+  #custom-img {
+    min-width: 50%;
+  }
+
+  #first-imgs img{
+    min-width: 60px;
+    min-height: 60px;
+  }
+
+  .logo2 {
+    width: 100px;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 150px repeat(4, 1fr);
+  }
+
+  footer h3, footer a{
+    font-size: .65em;
+  }
+
+  #logotipo2, .social {
+    min-width: 100px;
+    padding: 10px;
+  }
+}
