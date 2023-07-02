@@ -25,47 +25,80 @@
                 </div>
             </nav>
         </header>
-        <main class="services-box">
-            <div class="services-cover">
-                <h1 class="home-tittle-log">Services</h1>
-                <img id="design-img" src="images/Web design.jpg" alt="Services cover">
+        <main>
+            <div id="custom-box">
+                <h1 class="home-tittle2">Projects</h1>
+                <img id="custom-img" src="images/taking picture.jpg" alt="taking picture">
             </div>
-        <div class="text-services">
-            <p>
-                We are experts creating effective ads, web optimization, website development, email marketing, content creation,
-                attraction, interaction and conversation generation. We understand your brand, analyze your audience, determine
-                channels, create content, research trends, encourage conversations, and measure and analyze the community in real time.
-            </p>
-            <p>
-                We know that the way of advertising and the needs of customers are constantly changing, which is why we develop
-                communication strategies with an advertising focus aimed at meeting objectives, which transform a current situation with
-                100% measurable and verifiable results for brands, companies, organizations and public and private institutions.
-            </p>
-            <p>
-                For your brand to communicate effectively, you need to build it based on what you want the public to know about it and
-                how you want them to perceive it. The type of brand you want to build will attract the attention of the client you
-                prefer.
-                For digital marketing, we help you obtain better results and profits with the appropriate strategies. On the other
-                hand, it gives you the possibility to be better than your competition and to know the needs of your potential clients.
-                For social media, with our content creation, we direct buyers to satisfy their search for answers and provide them with
-                the commercial solutions they need, in this case, the one that your product or service proposes. We have 5 years of
-                experience in social media, we see that companies that offer services in this medium are born and die, and we see them
-                act without a defined strategy. That separates Intelligent Marketing from the competition, each action, each post, each
-                message, each medium, the use of time, each communication axis, our measurement of results, come from a predesigned
-                strategy.
-            </p>
-            <p>
-                For Web development, your website is one of the best tools if it is well structured and contributes to achieving your
-                goals. At Fitmetrics we offer designs according to what you want to communicate, 100% responsive sites, including SEO
-                and CRM.
-                E-Commerce: We help you and facilitate the process of selling products and/or services, and using multiple tools to
-                increase your sales, guaranteeing the same characteristics of a physical store but in an online version, selling to your
-                mind and your emotions.
-            </p>
-        
-            <img id="media-img" src="images/social media.jpg" alt="Social media image">
-        </div>
-        </main>  
+            <div class="projects">
+                <div id="first-project">
+                    <h1>##</h1>
+                    <h4>##</h4>
+                </div>
+                <a id="first-imgs">
+                    <img id="01" src="images/" alt="Icon">
+                    <img id="02" src="images/" alt="Icon">
+                    <img id="03" src="images/" alt="Icon">
+                    <img id="04" src="images/" alt="Icon">
+                    <img id="05" src="images/" alt="Icon">
+                </a>
+                
+                <div id="second-step">
+                    <h1>2nd</h1>
+                    <h4>##</h4>
+                </div>
+                <div id="third-step">
+                    <h1>3rd</h1>
+                    <h4>##</h4>
+                </div>
+            </div>
+
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <h1>Fitmetrics</h1>
+                <ul>    
+                    <li>
+                        <label for="name">What's your name?</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">What's your E-mail?</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                    <li>
+                        <label for="choice">Which service did you choose?</label>
+                        <input type="text" id="choice" name="customer_choice">
+                    </li>
+                    <li>
+                        <label for="msg">Are you a company or influencer?</label>
+                        <textarea id="msg" name="customer_idea"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">submit</button>
+                    </li>
+                </ul>
+
+            </form>
+            <script>
+                // get the feedback div element so we can do something with it.
+                const feedbackElement = document.getElementById('feedback');
+                // get the form so we can read what was entered in it.
+                const formElement = document.forms[0];
+                // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+                formElement.addEventListener('submit', function (e) {
+                    // stop the form from doing the default action.
+                    e.preventDefault();
+                    // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                    feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value +
+                        '! Thank you for your message. We will get back with you as soon as possible!';
+                    // make the feedback element visible.
+                    feedbackElement.style.display = "block";
+                    // add a class to move everything down so our message doesn't cover it.
+                    document.body.classList.toggle('moveDown');
+                });
+            </script>
+        </main>
+          
         <footer>
             <a id="logo2_link" href="index.html">
                 <img class="logo2" src="images/logo.jpg" alt="Fitmetrics">
