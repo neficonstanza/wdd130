@@ -25,46 +25,78 @@
                 </div>
             </nav>
         </header>
-        <div id="us-box">
-            <section id="us-msg">
-                <h1 class="home-tittle">Who</h1>
-                <h1 class="home-tittle2">We Are</h1>
-
-            </section>   
-            <img id="us-img" src="images/metrics.jpg" alt="metrics"> 
-        </div>
-        <main class="Agency">
-
-            <img class="Agency" src="images/Apps.jpg" alt="Apps">
-            <h2>Our agency</h2>
-
-            <p>
-                We are a marketing agency, totally separate from an advertising agency, our focus is not the guideline, it is that our
-                clients sell more through the implementation of strategies and tactics in the 10Ps of our marketing mix. We create a
-                comprehensive digital marketing strategy, from conception and development to the analysis and optimization of each
-                project.
-            </p>
-            <p>
-                We generate relationships with your potential customers, through the planning and implementation of digital strategies
-                that generate value with your key audiences. Digital channels as your allies to meet and exceed your positioning goals
-                and business objectives.The results speak for us. More than 3 years of experience managing TOP brands and generating
-                results from digital media for companies and influencers nationwide.
-            </p>
-            <p>
-                At Fitmetrics we capture unknown users and those aligned to your Buyer Persona profile, in order to convert them into
-                subscribers and/or leads, nurture them with valuable content to profile them as customers and keep them for a long time.
-            </p>
-            <p>
-                We are the Marketing and Advertising Agency specialized in creating ideas and developing strategies for brands to
-                achieve their objectives and stand out in the digital world.
-            </p>
-
-            <div id="final-msg">
-                <h3>Learn more about our services</h3>
-                <div class="button-box">
-                    <a class="learn-more" href="services.html">Contact Us</a>
+        <main>
+            <div id="custom-box">
+                <h1 class="home-tittle2">Projects</h1>
+                <img id="custom-img" src="images/taking picture.jpg" alt="taking picture">
+            </div>
+            <div class="projects">
+                <div id="first-project">
+                    <h1>##</h1>
+                    <h4>##</h4>
+                </div>
+                <a id="first-imgs">
+                    <img id="01" src="images/" alt="Icon">
+                    <img id="02" src="images/" alt="Icon">
+                    <img id="03" src="images/" alt="Icon">
+                    <img id="04" src="images/" alt="Icon">
+                    <img id="05" src="images/" alt="Icon">
+                </a>
+                
+                <div id="second-step">
+                    <h1>2nd</h1>
+                    <h4>##</h4>
+                </div>
+                <div id="third-step">
+                    <h1>3rd</h1>
+                    <h4>##</h4>
                 </div>
             </div>
+
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <h1>Fitmetrics</h1>
+                <ul>    
+                    <li>
+                        <label for="name">What's your name?</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">What's your E-mail?</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                    <li>
+                        <label for="choice">Which service did you choose?</label>
+                        <input type="text" id="choice" name="customer_choice">
+                    </li>
+                    <li>
+                        <label for="msg">Are you a company or influencer?</label>
+                        <textarea id="msg" name="customer_idea"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">submit</button>
+                    </li>
+                </ul>
+
+            </form>
+            <script>
+                // get the feedback div element so we can do something with it.
+                const feedbackElement = document.getElementById('feedback');
+                // get the form so we can read what was entered in it.
+                const formElement = document.forms[0];
+                // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+                formElement.addEventListener('submit', function (e) {
+                    // stop the form from doing the default action.
+                    e.preventDefault();
+                    // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                    feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value +
+                        '! Thank you for your message. We will get back with you as soon as possible!';
+                    // make the feedback element visible.
+                    feedbackElement.style.display = "block";
+                    // add a class to move everything down so our message doesn't cover it.
+                    document.body.classList.toggle('moveDown');
+                });
+            </script>
         </main>
           
         <footer>
