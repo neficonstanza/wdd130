@@ -486,7 +486,7 @@ form {
     grid-template-columns: 150px repeat(4, 1fr);
   }
 
-  footer h3, footer a{
+  footer p, footer a{
     font-size: .65em;
   }
 
