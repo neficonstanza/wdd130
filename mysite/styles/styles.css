@@ -468,8 +468,6 @@ form {
     width: 400px;
   } 
 
-
-
   #results-img {
     min-width: 50%;
   }
@@ -492,7 +490,7 @@ form {
     font-size: .65em;
   }
 
-  #logotipo2, .social {
+  #logo2_link, .social {
     min-width: 100px;
     padding: 10px;
   }
