@@ -5,7 +5,7 @@
   margin: auto;
 }
 
-.home-title {
+.home-tittle {
   font-family: 'Fedroka-One', Arial, sans-serif;
   font-size: 2em;
   margin-top: 10px;
@@ -217,7 +217,7 @@ p {
   border-bottom: #348888 solid 2px;
 }
 
-.home-title2 {
+.home-tittle2 {
   grid-row: 1/2;
   grid-column: 1/3;
 }
