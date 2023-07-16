@@ -359,7 +359,7 @@ form {
 #aboutus-img {
   grid-row: 1/2;
   grid-column: 1/4;
-  width: 100%;
+  width: 1600px;
   height: 100%;
   border-top: #348888 solid 3px;
 }
